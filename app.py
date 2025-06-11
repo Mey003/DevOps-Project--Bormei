@@ -5,8 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return '''
-    <h3>✅ Hello, world! This Flask app is running in Docker. My name is SUN CHANBORMEI</h3>
-    <img src="/static/profile.png" alt="My photo" width="300">
+    <img src="/static/profile.png" alt="My photo" style="width:100%; height:auto;">
     '''
 
 if __name__ == '__main__':
