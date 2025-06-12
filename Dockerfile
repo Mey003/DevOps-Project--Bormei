@@ -4,8 +4,8 @@ FROM python:3.9-slim
 # Set working directory in container
 WORKDIR /app
 
-# Copy source code
-COPY app.py .
+# Copy everything (code + static/images)
+COPY . .
 
 # Install dependencies
 RUN pip install flask
