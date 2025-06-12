@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return '''
-    <img src="/static/My photo.jpg" alt="My photo" style="width:100%; height:auto;">
+    <img src="/static/my_photo1.jpg" alt="My photo" style="width:100%; height:auto;">
     '''
 
 if __name__ == '__main__':
